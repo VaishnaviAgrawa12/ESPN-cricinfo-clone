@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://wassets.hscicdn.com/static/images/favicon.ico"
+    />
+    <title>Wounderwins Cricket</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #container-main {
+        width: 100%;
+        display: flex;
+      }
+      #work {
+        width: 45%;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+      }
+      #work > h1 {
+        margin-bottom: 20px;
+      }
+      #work > h1 + p {
+        margin-bottom: 30px;
+        color: gray;
+      }
+
+      #work h3 a {
+        color: red;
+        font-weight: bold;
+      }
+      #work h3 {
+        color: gray;
+        margin-bottom: 30px;
+      }
+      #work > p {
+        width: 80%;
+        margin: auto;
+        line-height: 150%;
+        font-size: 20px;
+      }
+      #work > form input {
+        padding: 15px;
+        width: 450px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        background-color: rgba(128, 128, 128, 0.119);
+        border: none;
+      }
+      #work > form > input:last-child {
+        display: block;
+        text-decoration: none;
+        padding: 15px 50px 15px 50px;
+        background-color: darkblue;
+        border: 2px solid darkblue;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin: auto;
+        margin-bottom: 40px;
+      }
+      #work > form > input:last-child:hover {
+        background-color: red;
+        border: 2px solid red;
+        cursor: pointer;
+      }
+      #work h3 + a {
+        font-size: 18px;
+        font-weight: bold;
+        color: red;
+        padding: 0px;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      #work > form > a {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: right;
+        margin-right: 5px;
+        margin-bottom: 20px;
+      }
+      #work form a:hover {
+        background-color: white;
+        border: none;
+        color: darkblue;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container-main">
+      <div id="work">
+        <h1>Sing up</h1>
+        <p>Please Enter Your Details</p>
+        <form onsubmit="formSubmit(event)">
+          <input type="text" placeholder="Enter your Name" id="name" /> <br />
+          <input
+            type="number"
+            placeholder="Enter your Mobile Number"
+            id="mobile"
+          />
+          <input type="text" placeholder="Enter your Email" id="email" /> <br />
+          <input
+            type="password"
+            placeholder="Enter your Password"
+            id="password"
+          />
+
+          <input type="Submit" />
+        </form>
+        <h3>Don't Have An Account? <a href="./fantasy.html">Log in</a></h3>
+      </div>
+      <div id="only-img">
+        <img src="./fantay last.png" alt="Error" />
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  function formDetails(n, m, e, p) {
+    this.name = n;
+    this.mobile = m;
+    this.email = e;
+    this.password = p;
+  }
+
+  function formSubmit(e) {
+    e.preventDefault();
+    let form = document.querySelector("form");
+    let name = form.name.value;
+    let mobile = form.mobile.value;
+    let email = form.email.value;
+    let password = form.password.value;
+
+    let formObj = new formDetails(name, mobile, email, password);
+
+    let formArr = JSON.parse(localStorage.getItem("Details")) || [];
+    formArr.push(formObj);
+
+    localStorage.setItem("Details", JSON.stringify(formArr));
+
+    alert("Signup Successfully");
+
+    window.location.href = "fantasy.html";
+  }
+</script>
