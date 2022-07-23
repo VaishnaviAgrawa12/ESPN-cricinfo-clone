@@ -25,7 +25,7 @@ new teamCF("https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/
     let flag = document.createElement("img")
     flag.src=elem.img
     let vBox= document.createElement("div")
-    let name =document.createElement("h2")
+    let name =document.createElement("p")
     name.innerText = elem.name
 
     vBox.append(flag,name)
@@ -63,7 +63,7 @@ new WteamCF("https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50
     let flag = document.createElement("img")
     flag.src=elem.img
     let vBox= document.createElement("div")
-    let name =document.createElement("h2")
+    let name =document.createElement("p")
     name.innerText = elem.name
 
     vBox.append(flag,name)

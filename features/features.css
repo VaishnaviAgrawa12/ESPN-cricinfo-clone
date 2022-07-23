@@ -1,0 +1,21 @@
+#ftNav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+
+}
+#ftContainer > #box{
+    display: flex;
+}
+*{
+    font: BentonSans;
+    font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+
+}
+
+.mainBox p:nth-child(1){
+    font-weight: 700;
+}
+
+
