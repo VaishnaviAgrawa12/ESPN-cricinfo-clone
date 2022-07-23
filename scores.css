@@ -1,0 +1,361 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'BentonSans-Bold,Arial,Noto Sans,sans-serif';
+}
+/* Navbar */
+#navbar-1
+{
+width: 95%;
+margin: auto;
+margin-top: 20px;
+display: flex;
+gap: 20px;
+position: sticky;
+top: 0px;
+}
+
+#nav1
+{
+    width: 73%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+#nav1 a
+{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: auto;
+}
+#nav1 a:hover
+{
+    color: dodgerblue;
+    border-bottom: 3px solid dodgerblue;
+}
+
+#navbar-2
+{
+width: 95%;
+margin: auto;
+margin-top: 20px;
+display: flex;
+gap: 20px;
+}
+
+#nav11
+{
+    width: 73%;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#nav11 a
+{
+    border: 1px solid gray;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-right: 95px;
+    padding-left: 95px;
+    margin: auto;
+}
+#nav11 a:first-child,
+#nav11 a:last-child
+{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+#nav11 a:first-child:hover,
+#nav11 a:last-child:hover
+{
+    border: 1px solid gray;
+}
+
+#nav11 a:hover
+{
+    color: purple;
+}
+
+#slideshow>img
+{
+display: block;
+margin: auto;
+}
+
+#container
+{
+    /* border: 1px solid gray; */
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#main
+{
+    width: 75%;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, auto);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#ads
+{
+    width: 25%;
+    border: 1px solid gray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-top: -130px;
+}
+#ads-2
+{
+    width: 25%;
+    border: 1px solid gray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -20px;
+}
+#ads-3
+{
+    width: 25%;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -20px;
+}
+#ads-2>div img,
+#ads>div img
+{
+    border-radius: 20px;
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+#ads-2>div img:hover,
+#ads>div img:hover
+{
+    display: block;
+    width: 310px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#ads>div p
+{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin:10px 0 0 10px;
+}
+#ads-2>div p
+{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin: 10px 0 10px 10px;
+}
+#ads>div:first-child p
+{
+    border: none;
+}
+#ads>div:last-child p,
+#ads-2>div:last-child p
+{
+    border: none;
+}
+#ads p
+{
+    margin-bottom: 20px;
+}
+#ads h5
+{
+    margin-left: 22px;
+}
+#ads h4
+{
+    padding: 10px;
+}
+
+#ads>div>div
+{
+    border-radius: 10px;
+}
+#ads div
+{
+    margin-bottom: 10px;
+}
+#ads h4
+{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+#main>div
+{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+#main>div:nth-child(13),
+#main>div:last-child
+{
+    border-bottom: none;
+}
+
+#main>div:nth-child(4),
+#main>div:nth-child(6),
+#main>div:nth-child(8),
+#main>div:nth-child(10),
+#main>div:nth-child(12),
+#main>div:nth-child(14),
+#main>div:nth-child(16)
+{
+    border-right: none;
+}
+#main>div:nth-child(2)
+{
+    border: none;
+}
+#main>div>div
+{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+#main>div>div img
+{
+    width: 20px;
+    margin: 0px 10px 10px 0px;
+}
+
+#main>div>div>div:first-child div> p
+{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.inner-last>div
+{
+    display: flex;
+    margin-bottom: 5px;
+}
+#main>div>div>div:first-child div
+{
+display: flex;    
+}
+
+#main>div>div>div:last-child
+{
+    /* display: flex; */
+}
+
+#main>h4
+{
+    border-bottom: 1px solid gray;
+    width: 198%;
+    padding: 15px 0px 15px 10px;
+}
+
+#main>div >p:first-child
+{
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#main>div > p+p
+{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+#main>div > p+p a
+{
+   color: gray;
+}
+
+#main>div>div:last-child
+{
+    margin-top: 10px;
+    display: block;
+    border: none;
+}
+
+#main>div>div:last-child>a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+#main>div>div:last-child>a:hover
+{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+}
+
+.inner-last>div p
+{
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.inner-last>div
+{
+    direction:ltr;
+}
+
+#second-half
+{
+    border: none;
+}
+
+.inner-last
+{
+    display: inline;
+}
+
+#footer
+{
+    /* border: 1px solid gray; */
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(128, 128, 128, 0.201);
+    padding: 20px 40px 20px 40px;
+}
+
+#main-2
+{
+    width: 75%;
+}
+#main-2 p,
+#main-2 a
+{
+    text-decoration: none;
+    color: black;
+}
+#ads-4 p
+{
+    font-size: 14px;
+    text-align: center;
+}
+#ads-2>div img{
+    margin-bottom: 20px;
+}
