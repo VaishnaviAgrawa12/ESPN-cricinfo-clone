@@ -574,7 +574,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="./videos.html">Videos</a>
+                    <a target="_blank" href="./video.html">Videos</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -641,7 +641,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="#">Stats</a>
+                    <a target="_blank" href="stat.html">Stats</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -694,7 +694,7 @@ function navbar(){
                 <span class="ll"> <img src="https://wassets.hscicdn.com/static/images/fantasy-home.png"
                         alt="">
                 </span>
-                <span class="hide  hide_phone"> Fantasy</span>
+                <span class="hide  hide_phone"><a href="fantasy.html"> Fantasy <a></span>
                 <span class=" hide_phone">Edition IN</span>
                 <span><i class="fa-solid fa-moon"></i></span>
                 <span><i class="fa-solid fa-bell"></i></span>
