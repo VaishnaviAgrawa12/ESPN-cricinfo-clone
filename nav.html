@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="shortcut icon"
+    href="https://a.espncdn.com/combiner/i?img=/i/icons/cricket/ESPN-icon-cricket2.png&w=288&h=288&transparent=true">
+</head>
+<style>
+    td {
+        padding: 8px 8px 8px 8px;
+
+    }
+
+    tr {
+        border-bottom: 0.05px solid #d9dadd;
+    }
+
+    thead {
+        color: #6c6d6f;
+        background-color: #f3f4f7;
+    }
+
+    thead,
+    th {
+        padding: 8px 12px 8px 8px;
+        text-align: left;
+    }
+
+    #add-hover:hover {
+        color: #03a9f4;
+        cursor: pointer;
+    }
+
+    #hover-underline:hover {
+        font-size: 20px;
+    }
+</style>
+<body>
+    <div id="navbar"></div>
+</body>
+</html>
+<script type="module">
+    import navbar from "./component/navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
