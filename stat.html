@@ -1,0 +1,422 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        font-family:Tahoma, Geneva, Arial, "Arial Narrow", Verdana, sans-serif;
+    }
+    #mBox{
+     
+        width: 70%;
+        height: 230px;
+        margin:auto;
+        margin-top:60px;
+        padding:10px;
+        display: flex;
+        gap:10px;
+    }
+    #testMatch{
+        display: flex;
+        gap:10px;
+        
+    }
+    #k_left, #K_right{
+           padding:10px;
+           border: 1px solid grey;
+           border-radius: 10px;
+           width:200px;
+           height: 200px;
+           
+    }
+    #k_right>p ,#k_left>p,#records>p,#k_other>p{
+        font-size: 11px;
+        margin-top: -5px;margin-bottom:-5px;
+        
+    }
+    #k_right>h4 ,#k_left>h4{
+        font-size: 12px;
+        color: darkblue;
+        margin-bottom:2px;
+        margin-top:-5px;
+
+    }
+    hr{
+        border: none;
+  border-top: 1px dotted lightgrey;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+    }
+    #records{
+        border: 1px solid grey;
+        width: 250px;
+        border-radius:15px;
+        padding: 10px;
+        height:650px;
+        background-color:white;
+    }
+    p{
+        color: rgb(22, 22, 173)
+    }
+      p:hover{
+        color: black;
+        cursor: pointer;
+        text-decoration-line: underline;
+        
+      }
+
+      #k_other{
+        margin-left: 225px;
+        border: 1px solid grey;
+        width: 430px;
+        height:700px;
+        border-radius:10px;
+        margin-top:10px;
+        padding:10px;
+      }
+      #k_readers{
+        border:1px solid grey;
+        padding:10px;
+        width:300px;
+        height:700px;
+      }
+      #k_top{
+        position: -webkit-sticky;
+        position: sticky;
+      }
+      #k_bottom{
+        border-top: 2px solid rgb(84, 19, 248);
+          overflow-y: scroll;
+          height:600px;
+      }
+</style>
+<body>
+    <div id="mBox">
+        <div id="testMatch">
+            <div id="k_left">
+                <h4 style="color:blue">Test matches</h4>
+                <hr>
+                <p>Team records</p> <hr>
+                <p>Batting records</p> <hr>
+                <p>
+                    Bowling records
+                </p> <hr>
+                
+                <p>
+                    Wicketkeeping records
+                </p> <hr>
+                <p>
+                    Fielding records
+                </p> <hr>
+                <p>
+                    All-round records
+                </p> <hr>
+                <p>
+                    Partnership records
+                </p>  <hr>
+                <p>
+                    Individual records
+                </p> <hr>
+            </div>
+            <div id="k_right">
+                <h4 style="color: blue;">
+                    One-Day Internationals
+                </h4>
+                <hr>
+                <p>Team records</p> <hr>
+                <p>Batting records</p> <hr>
+                <p>
+                    Bowling records
+                </p> <hr>
+                
+                <p>
+                    Wicketkeeping records
+                </p> <hr>
+                <p>
+                    Fielding records
+                </p> <hr>
+                <p>
+                    All-round records
+                </p> <hr>
+                <p>
+                    Partnership records
+                </p>  <hr>
+                <p>
+                    Individual records
+                </p> <hr>
+            </div>
+        </div>
+        <div id="records">
+          <h4 style="margin-top:-5px;margin-bottom:-5px;">
+            Records by team
+          </h4>
+          <hr>
+          <h5 style="margin-top:-5px;margin-bottom:-5px; color:blue">
+            team | Host Country
+          </h5>
+          <hr>
+          <p>
+            Afghanistan
+          </p>
+          <hr>
+          <p>
+            Australia
+          </p>
+          <hr>
+          <p>
+            Bangladesh
+          </p>
+          <hr>
+          <p>
+            England
+          </p>
+          <hr>
+          <p>
+            ICC World XI
+          </p>
+          <hr>
+          <p>
+            India
+          </p>
+          <hr>
+          <p>
+            Ireland
+          </p>
+          <hr>
+          <p>
+            New Zealand
+          </p>
+          <hr>
+          <p>
+            Pakistan         
+         </p>
+         <hr>
+          <p>
+            South Africa
+          </p> 
+          <hr>
+          <p>
+            Sri Lanka
+          </p>
+          <hr>
+           <p>
+            West Indies
+          </p>
+          <hr>
+           <p>
+            Zimbabwe
+          </p> 
+          <hr>
+          <p>
+            Africa XI
+          </p>
+          <hr>
+           <p>
+            Asia XI
+          </p>
+          <hr>
+           <p>
+            Bermuda
+          </p> 
+          <hr>
+          <p>
+            Canada
+          </p> 
+          <hr>
+          <p>
+            East Africa
+          </p> 
+          <hr>
+          <p>
+            Hong Kong
+          </p> 
+          <hr>
+          <p>
+            Kenya
+          </p>
+          <hr>
+           <p>
+            Namibia
+          </p>
+          <hr>
+           <p>
+            Nepal
+          </p>
+          <hr>
+          <p>
+            Netherlands
+          </p>
+          <hr>
+          <p>
+            Oman
+          </p>
+          <hr>
+          <p>
+            Papua New Guinea
+          </p>
+          <hr>
+          <p>
+            Scotland
+          </p>
+          <hr>
+          <p>
+            United Arab Emirates
+          </p>
+          <hr>
+          <p>
+            United States of America
+          </p>
+          <hr>
+         
+        </div>
+        <div id="k_readers">
+            <div id="k_top">
+                <h3>Readers recommend</h3>
+                <p>Curated Tweets by ‎@ESPNcricinfo</p>
+            </div>
+            <div id="k_bottom">
+                <p><b>zainub Razvi</b></p>
+
+                <p>
+                    An article every bit as world class as Babar's innings.https://www.espncricinfo.com/story/…
+                </p>
+                <img style="height:150px" src="https://pbs.twimg.com/card_img/1548687281787400193/6R9FfBv9?format=jpg&name=600x314" alt="">
+                <p><b>abdul</b></p>
+
+                <p>
+                    An article every bit as world class as Babar's innings.https://www.espncricinfo.com/story/ …
+                </p>
+                <img style="height:150px" src="https://pbs.twimg.com/card_img/1548687281787400193/6R9FfBv9?format=jpg&name=600x314" alt="">
+                <p><b>Chinthaka Chandrasekara</b></p>
+
+                <p>
+                    An article every bit as world class as Babar's innings.https://www.espncricinfo.com/story/ …
+                </p>
+                <img style="height:150px" src="https://pbs.twimg.com/card_img/1548687281787400193/6R9FfBv9?format=jpg&name=600x314" alt="">
+            </div>
+    </div>
+    </div>
+
+    <div id="k_other">
+        <h4 style="margin-top:-4px;">Other cricket</h4>
+        <hr>
+        <p>
+            Twenty20 Internationals
+        </p>
+        <hr>
+        <p>
+            Combined Test, ODI and T20I records
+        </p>
+        <hr>
+        <p>
+            First-class matches
+        </p>
+        <hr>
+        <p>
+            List A matches
+        </p>
+        <hr>
+        <p>
+            Twenty20 matches
+        </p>
+        <hr>
+        <p>
+            Combined First-class, List A and Twenty20
+        </p>
+        <hr>
+        <p>
+            Women's Test matches
+        </p>
+        <hr>
+        <p>
+            Women's One-Day Internationals
+        </p>
+        <hr>
+        <p>
+            Women's Twenty20 Internationals
+        </p>
+        <hr>
+        <p>
+            Women's Twenty20
+        </p>
+        <hr>
+        <p>
+            Under-19s Youth Test matches
+        </p>
+        <hr>
+        <p>Under-19s Youth One-Day Internationals</p>
+        <hr>
+        <p>
+            All cricket records (including minor cricket)
+        </p>
+        <hr>
+        <h4>
+            Trophy/Cup records
+        </h4>
+        <hr>
+        <p>
+            Basil D'Oliveira Trophy
+        </p>
+        <hr>
+        <p>
+            Benaud-Qadir Trophy
+        </p>
+        <hr>
+        <p>
+            Border-Gavaskar Trophy
+        </p>
+        <hr>
+        <p>
+            Botham-Richards Trophy
+        </p>
+        <hr>
+        <p>
+            ICC World Test Championship
+        </p>
+        <hr>
+        <p>
+            The Ashes
+        </p>
+        <hr>
+        <p>
+            The Frank Worrell Trophy
+        </p>
+        <hr>
+        <p>
+            The Wisden Trophy
+        </p>
+        <hr>
+        <p>
+            Trans-Tasman Trophy
+        </p>
+        <hr>
+        <p>
+            Asia Cup
+        </p>
+        <hr>
+        <p>
+            Chappell-Hadlee Trophy
+        </p>
+        <hr>
+        <p>
+            ICC Champions Trophy (ICC KnockOut)
+        </p>
+        <hr>
+        <p>
+            ICC Cricket World Cup Qualifier (ICC Trophy)
+        </p>
+        <hr>
+        <p>
+            ICC World Cricket League Championship
+        </p>
+
+    </div>
+   
+</body>
+</html>
