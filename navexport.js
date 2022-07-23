@@ -332,7 +332,7 @@ function navbar(){
             <div class="jjjj">
 
                 <div class="k ">
-                    <a target="_blank" href="liveScoreHome.html">Live Scores</a>
+                    <a target="_blank" href="./live.html">Live Scores</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -374,7 +374,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="#">Series</a>
+                    <a target="_blank" href="./series.html">Series</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -443,7 +443,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="#">Teams</a>
+                    <a target="_blank" href="./teams.html">Teams</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -521,7 +521,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="#">News</a>
+                    <a target="_blank" href="./newss.html">News</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -549,7 +549,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="#">Features</a>
+                    <a target="_blank" href="./features.html">Features</a>
 
                     <div class="kk">
                         <div class="kkk"></div>
@@ -574,7 +574,7 @@ function navbar(){
                     </div>
                 </div>
                 <div class="k">
-                    <a target="_blank" href="#">Videos</a>
+                    <a target="_blank" href="./videos.html">Videos</a>
 
                     <div class="kk">
                         <div class="kkk"></div>

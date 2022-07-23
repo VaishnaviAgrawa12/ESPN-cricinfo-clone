@@ -1,0 +1,87 @@
+body{
+  width: 80%;
+  margin: auto;
+}
+
+#ftNav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: -10px;
+    width: 50%;
+
+}
+ #box{
+    display: flex;
+}
+*{
+    font: BentonSans;
+    font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+
+}
+
+.mainBox p:nth-child(1){
+    font-weight: 700;
+}
+
+.iBox {
+    width: 50%;
+}
+.iBox img {
+    width: 100%;
+    border-radius: 10px;
+}
+.zoom {
+    /* /padding: 50px; */
+    background-color:white;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .mainBox{
+    padding: 20px;
+    width: 60%;
+    
+  }
+  #box{
+    margin-top: 20px;
+    
+    padding-bottom: 10px;
+    border-bottom: 1px solid  rgba(211, 211, 211, 0.323);
+   
+  }
+  #ftContainer{
+    width: 60%;
+  }
+
+  #Container {
+    display: flex;
+  }
+#rightContain .iBox{
+  
+  width: 40%;
+}
+#rightContain .iBox img{
+  width: 100%;
+  height: max-content;
+  margin-top: 10px;
+}
+#rightContain .mainBox{
+  padding: 5px;
+}
+#rightContain{
+  width: 30%;
+  margin-left: 200px;
+}
+#ad {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  left: 20%;
+}
+ 
