@@ -1,0 +1,53 @@
+body{
+    background-color: #eeeeee;
+    
+}
+*{
+    font-family: 
+    BentonSans-Bold, Arial, "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+#international {
+    background-color: white;
+    border-radius:10px ;
+}
+#inter {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 10px;
+  
+}
+#inter div {
+    display: flex;
+    padding: 25px;
+}
+#inter img {
+    width: 15%;
+}
+#inter p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#WCountry {
+    background-color: white;
+    border-radius:10px ; 
+}
+
+#women {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 10px;
+  
+}
+#women div {
+    display: flex;
+    padding: 25px;
+}
+#women img {
+    width: 15%;
+}
+#women p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
