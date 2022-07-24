@@ -9,6 +9,9 @@
       type="image/x-icon"
       href="https://wassets.hscicdn.com/static/images/favicon.ico"
     />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./nav.css">
+    
     <title>Live Cricket scores and updates</title>
     <link
       rel="stylesheet"
@@ -1169,3 +1172,7 @@
   </body>
 </html>
 <script src="./scores.js"></script>
+<script type="module">
+    import navbar from "./navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
