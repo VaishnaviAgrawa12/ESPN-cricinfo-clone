@@ -102,6 +102,7 @@
     </style>
   </head>
   <body>
+    <div id="navbar"></div>
     <div id="container-main">
       <div id="work">
         <h1>Log in</h1>
@@ -123,6 +124,10 @@
   </body>
 </html>
 <script>
+  
+    import navbar from "./navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+
   function formSubmit(e) {
     e.preventDefault();
     let form = document.querySelector("form");

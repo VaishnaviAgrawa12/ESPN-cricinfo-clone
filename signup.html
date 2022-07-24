@@ -102,6 +102,7 @@
     </style>
   </head>
   <body>
+    <div id="navbar"></div>
     <div id="container-main">
       <div id="work">
         <h1>Sing up</h1>
@@ -131,6 +132,9 @@
   </body>
 </html>
 <script>
+  import navbar from "./navexport.js";
+  document.getElementById("navbar").innerHTML = navbar();
+
   function formDetails(n, m, e, p) {
     this.name = n;
     this.mobile = m;
