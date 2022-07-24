@@ -15,6 +15,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="scores.css" />
+     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./nav.css">
   </head>
   <body>
     <div id="navbar"></div>
@@ -1169,3 +1171,8 @@
   </body>
 </html>
 <script src="./scores.js"></script>
+
+ <script type="module">
+    import navbar from "./navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
