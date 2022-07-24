@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>news</title>
+     <link rel="stylesheet" href="./index.css">
+     <link rel="stylesheet" href="./nav.css">
 </head>
 <style>
     *{
@@ -136,6 +138,7 @@ p:nth-child(3){
 </style>
 </head>
 <body>
+     <div id="navbar"></div>
     
     <div id="k_container">
         <div class="left">
@@ -332,3 +335,8 @@ p:nth-child(3){
     
 </body>
 </html>
+
+ <script type="module">
+    import navbar from "./navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
