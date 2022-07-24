@@ -8,6 +8,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+     <link rel="stylesheet" href="./nav.css">
+   <link rel="shortcut icon"
+        href="https://a.espncdn.com/combiner/i?img=/i/icons/cricket/ESPN-icon-cricket2.png&w=288&h=288&transparent=true">
   <style>
  *{
      font-family:BentonSans-Bold, Arial, "Noto Sans", sans-serif;
@@ -216,6 +220,8 @@
 </head>
 
 <body>
+  
+   <div id="navbar"></div>
 
   <div class="video1">
     <div id="k_head">
@@ -365,5 +371,8 @@
 </body>
 
 </html>
-
+ <script type="module">
+    import navbar from "./navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
 
