@@ -328,7 +328,7 @@ function navbar(){
 
     <div id="j">
         <div id="jj">
-            <div class="jjj"> <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="logo"> </div>
+            <div class="jjj"> <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="logo"></div>
             <div class="jjjj">
 
                 <div class="k ">

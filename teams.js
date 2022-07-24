@@ -1,3 +1,6 @@
+import team from "./navexport.js"
+document.getElementById("navbar").innerHTML= team()
+
 let container= document.getElementById("inter")
 
 
@@ -28,13 +31,20 @@ new teamCF("https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/
     let name =document.createElement("p")
     name.innerText = elem.name
 
+    
+
     vBox.append(flag,name)
     vBox.style.border="1px solid #eeeeee"
     container.append(vBox)
  });
+ let btn = document.querySelector("#inter p")
+ btn.addEventListener("click", afgan)
+ function afgan(){
+   location.href="./Afgan.html"
+ }
 
 
-
+ 
 
  let container2= document.getElementById("women")
 
@@ -71,4 +81,4 @@ new WteamCF("https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50
     container2.append(vBox)
  });
 
- let button = document.getElementById("")
+ 

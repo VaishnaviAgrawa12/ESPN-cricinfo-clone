@@ -1,6 +1,7 @@
 *{
     font: BentonSans;
     font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+   
 }
 #teamNav{
     display: flex;
@@ -17,14 +18,18 @@ margin: auto;
 
 #country img{
 width: 15%;
+margin-left: 55px;
+margin-right: -45px;
 }
 #ad {
     margin: auto;
     margin-top: 15px;
     margin-left:260px ;
+    margin-bottom: 20px;
 }
 #left{
     width: 30%;
+    background-color: white;
 }
 #button {
     display: flex;
@@ -32,6 +37,7 @@ width: 15%;
     width: 60%;
     margin: auto;
     border-radius: 5px;
+    
    
 }
 button{
@@ -100,7 +106,7 @@ button{
     background-color:white;
     transition: transform .2s; /* Animation */
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     margin: 0 auto;
   }
   
@@ -122,5 +128,34 @@ button{
   #ftContainer{
     width: 60%;
   }
-
+  #right{
+    margin-left: 20px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  
+  }
+  
+  /* Bottom left text */
+  .text {
+    position: absolute;
+    bottom: 5px;
+    left: 3px;
+    font-weight: 700;
+    /* background-color: black; */
+    font-size: 30px;
+    background-image: linear-gradient(black, rgb(212, 212, 231));
+    background-size: 200% 200%;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    
+   
+  }
+#content4{
+    /* width: 80%;
+    margin: auto; */
+    margin-top: 20px;
+}
   
