@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+     <link rel="stylesheet" href="./nav.css">
+    <link rel="shortcut icon"
+        href="https://a.espncdn.com/combiner/i?img=/i/icons/cricket/ESPN-icon-cricket2.png&w=288&h=288&transparent=true">
 </head>
 <style>
 
@@ -97,6 +101,7 @@
       }
 </style>
 <body>
+     <div id="navbar"></div>
     <div id="mBox">
         <div id="testMatch">
             <div id="k_left">
@@ -420,3 +425,7 @@
    
 </body>
 </html>
+<script type="module">
+    import navbar from "./navexport.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
