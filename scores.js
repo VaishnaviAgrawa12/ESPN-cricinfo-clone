@@ -1,3 +1,7 @@
+import navbar from "./navexport.js"
+document.getElementById("navbar").innerHTML= navbar()
+
+
 function slideShow(){
     let image = ["https://tpc.googlesyndication.com/simgad/12185608401875927700?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qmPjUjQlo3TTVGKg7TnmUYS8jAP1Q", "https://tpc.googlesyndication.com/simgad/4866054573033308061?", "https://tpc.googlesyndication.com/simgad/10926761020657163993?"]
     let slide = document.getElementById("slideshow");
