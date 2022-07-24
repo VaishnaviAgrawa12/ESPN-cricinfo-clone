@@ -1,5 +1,5 @@
 
-import navbar from "../navexport.js"
+import navbar from "./navexport.js"
 document.getElementById("navbar").innerHTML= navbar()
 
 
@@ -31,21 +31,27 @@ new featureCF("https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50
 
 MyFeat.forEach(function(el){
     let pic = document.createElement("img")
-    pic.src= el.img
+    pic.src= el.img 
     pic.setAttribute("class","zoom")
     let iBox = document.createElement("div")
     iBox.setAttribute("class","iBox")
     iBox.append(pic)
     let heading = document.createElement("p")
-    heading.innerText=el.head
+    heading.innerText=`${el.head}`
+    heading.style.marginBottom="10px";
+
     let cont= document.createElement("p")
     cont.innerText=el.cont
     cont.style.fontSize="14px";
     cont.style.color="#48494a";
+    cont.style.marginBottom="15px";
+
+
     let date = document.createElement("p")
     date.innerText= `${el.date} \• ${el.auth}`
     date.style.fontSize="12px";
     date.style.color="#6c6d6f";
+    date.style.marginBottom="15px";
     
 
     let mainBox= document.createElement("div")
@@ -83,7 +89,8 @@ myMRfeature.forEach(function(el){
     let heading = document.createElement("p")
     heading.innerText=el.head
     heading.style.fontSize="12px";
-    heading.style.fontWeight="500"
+    heading.style.fontWeight="600"
+    heading.style.marginBottom="10px";
     // let cont= document.createElement("p")
     // cont.innerText=el.cont
     // cont.style.fontSize="14px";

@@ -1,16 +1,22 @@
 body{
-  width: 80%;
+  
+  width: 100%;
   margin: auto;
 }
 
 #ftNav {
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     margin: auto;
-    margin-left: -10px;
-    width: 50%;
+   margin-bottom: 30px;
+   background-color: white;
+   padding: 20px 60px;
+  }
 
-}
+  #ftNav p {
+    margin-right: 20px;
+  }
  #box{
     display: flex;
 }
@@ -56,15 +62,23 @@ body{
    
   }
   #ftContainer{
-    width: 60%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
   }
 
   #Container {
     display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+
   }
 #rightContain .iBox{
   
-  width: 40%;
+  width: 20%;
 }
 #rightContain .iBox img{
   width: 100%;
@@ -75,13 +89,20 @@ body{
   padding: 5px;
 }
 #rightContain{
-  width: 30%;
-  margin-left: 200px;
+  width: 40%;
+  margin-left: 20px;
+  background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
 #ad {
   width: 60%;
   margin: auto;
   position: relative;
   left: 20%;
+}
+#content2 {
+  margin-top: 30px;
+ 
 }
  

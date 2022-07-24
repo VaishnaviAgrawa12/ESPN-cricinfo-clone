@@ -1,3 +1,7 @@
+import navbar from "./navexport.js"
+document.getElementById("navbar").innerHTML= navbar()
+
+
 let container = document.getElementById("match")
 
 function matchCF(d,a,t1,t1n,t2,t2n,s){
